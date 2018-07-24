@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------ *\
+	Dweb - 30/08/2017
+\* ------------------------------------------------------------ */
+
+/* --- Modif liste d'articles vue grille > Articles PRESS --- */
+
+.article_list .list-articles .grid-la-list span.gla-item-desc {
+    color: #ffffff;
+}
+
+.article_list .list-articles .gla-item-content h2 {
+    margin: 0;
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: .05em;
+    line-height: 1.1;
+    margin: 0;
+    margin-top: 28px;
+}
+
+.article_list .layout-2-col .list-articles .gla-item-content {
+    display: flex;
+height: 300px;
+
+}
+
+
+.article_list .layout-2-col .list-articles .gla-item-content:before {
+    content: '';
+    width: 247px;
+    height: 344px;
+    background: url(images/grid-item-bg.png) no-repeat 0 0, linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(79,46,129,1) 50%,rgba(79,46,129,1) 100%);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.class-modif-presse-exposant .layout-2-col .list-articles .la-list .la-item-title {
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    letter-spacing: .025em;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,121 @@
+@media print {
+
+/***** GENERAL *****/
+@page {
+  size: A4;
+  margin: 3.5%;
+}
+
+.site-banner, .mod-catal.catal-nav-ex, .site-footer, .mod-catal.catal-nav-affix, .mod-catal.catal-nav-affix, .mod-catal.catal-pr-details .edito .catal-pr-item-buttons, .mod-catal .catal-prd-brand .catal-prd-exhibitor-view-all, .is-contentPusher, .mod-catal.catal-other-ex, .mod-catal.catal-other-prd, .catal-ex-item-cat-more-link, .mod-catal .catal-ex-item-buttons, .mod-catal .catal-ex-item-buttons-small, .mod-catal.myselection, #zone4, .site-wrapper .social-sharing, #zone1, .article-navigation, .mod-catal .catal-ed-url .icon-catal, .sticky-socials{
+display:none;
+}
+body{
+width: 210mm;
+}
+h2{
+ page-break-after: avoid;
+}
+/***************************/
+
+/***** FICHE PRODUIT *****/
+
+.catalogue .main-title-with-link {
+border-bottom: 1px solid #000000;
+    display: inline-block;
+    width: 84%;
+}
+.catalogue .main-title-with-link h1.la-main-title {
+    display: block;
+    margin-top: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.block.block-page.edito.mod-catal:after {
+    background: no-repeat 0 0;
+    content: url(/theme/solutrans_git_desktop/images/logo@2x.png); /***************************** Changer image *******************************************/
+    position: absolute;
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+    background-size: contain;
+    z-index: 80;
+    transform: scale(.15);  /***************************** Changer le scale (en fonction de la taille du logo) *****************************************/
+    right: 13%;  /**************************************** Changer le right (en fonction de la taille du logo) *****************************************/
+    top: 0pt;
+}
+
+.catalogue #zone2, body.page-events #zone2 {
+    width: 95%;
+}
+.catalogue.produit.fiche #zone2 .catal-pr-details mod-catal #brand {
+page-break-before: always;
+}
+.mod-catal h1 {
+    width: 85%;  /*************************** Changer la taille (en fonction de la taille du logo, le titre ne doit pas appaître dessus) ****************/
+    text-align: left !important;
+    margin-top: 1% !important;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-ex-name{
+text-align:left;
+}
+
+.mod-catal .catal-prd-main .catal-prd-stand{
+    text-align: center !important;
+    border: 1px solid black;
+        padding: 3pt 7pt;
+    margin-top: 7pt;
+display: flow-root;
+
+}
+.mod-catal .catal-prd-main .catal-prd-stand-title, .mod-catal .catal-prd-main .catal-prd-stand-list, .mod-catal .catal-prd-main .catal-prd-stand-item, .mod-catal .catal-prd-main .catal-prd-stand-link, .mod-catal .catal-prd-main .catal-prd-stand-nolink {
+    float: inherit;
+    text-align: center;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-link, .mod-catal .catal-prd-main .catal-prd-stand-nolink{
+text-align: center;
+    font-size: 1.8em;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-title{
+margin-bottom: -11px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-item{
+margin-left: 0;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-current{
+font-size: 3.8rem;
+    font-weight: bold;
+    color: #000000;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-rebate{
+background-color:#000000;
+}
+.mod-catal .catal-ed-main .catal-ed-main-stand-ref, .mod-catal .catal-ed-main .catal-ed-main-stand-title{
+color:#000000;
+}
+
+/******* FICHE EVENEMENT *******/
+.global-wrapper {
+    padding-top: 0 !important;
+}
+.site-wrapper .block:not(:first-child) {
+    margin-top: 0em;
+}
+.site-wrapper{
+padding-top:0;
+}
+/***************************/
+
+
+
+/********** SPECIFIQUE AU SALON ***************/
+.catalogue .layout-2-col{
+    width: 100%;
+    margin: initial;
+}
+
+/************************************************/
+}
+      
