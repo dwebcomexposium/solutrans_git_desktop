@@ -502,11 +502,11 @@ html[lang='en'] .quicklinks.cta li:nth-child(2) .btn-primary span { width: 110px
 html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px; }
 
 
-.quicklinks.cta li:nth-child(1) .btn-primary:before { width: 28px; height: 37px; background-image: url(images/icons/ico-date.svg); background-position: center center; background-repeat: no-repeat; 
-	-webkit-background-size: 28px 30px; 
-	        background-size: 28px 30px; 
+.quicklinks.cta li:nth-child(1) .btn-primary:before { width: 25px; height: 35px; background-image: url(images/icons/ico-calc.svg); background-position: center center; background-repeat: no-repeat; 
+	-webkit-background-size: 25px 35px; 
+	        background-size: 25px 35px; 
 }
-.quicklinks.cta li:nth-child(2) .btn-primary:before { width: 37px; height: 37px; background-image: url(images/icons/ico-direction.svg); background-position: center center; background-repeat: no-repeat; 
+.quicklinks.cta li:nth-child(2) .btn-primary:before { width: 37px; height: 37px; background-image: url(images/icons/ico-exhibit.svg); background-position: center center; background-repeat: no-repeat; 
 	-webkit-background-size: 37px 37px; 
 	        background-size: 37px 37px; 
 }
@@ -514,13 +514,13 @@ html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px
 	-webkit-background-size: 36px 30px; 
 	        background-size: 36px 30px; 
 }
-.quicklinks.cta li:nth-child(4) .btn-primary:before { width: 37px; height: 37px; background-image: url(images/icons/ico-exhibitors.svg); background-position: center center; background-repeat: no-repeat; 
-	-webkit-background-size: 37px 37px; 
-	        background-size: 37px 37px; 
+.quicklinks.cta li:nth-child(4) .btn-primary:before { width: 37px; height: 35px; background-image: url(images/icons/ico-lamp.svg); background-position: center center; background-repeat: no-repeat; 
+	-webkit-background-size: 37px 35px; 
+	        background-size: 37px 35px; 
 }
-.quicklinks.cta li:nth-child(5) .btn-primary:before { width: 19px; height: 37px; background-image: url(images/icons/ico-mobile.svg); background-position: center center; background-repeat: no-repeat; 
-	-webkit-background-size: 19px 35px; 
-	        background-size: 19px 35px; 
+.quicklinks.cta li:nth-child(5) .btn-primary:before { width: 23px; height: 30px; background-image: url(images/icons/ico-newsletter.svg); background-position: center center; background-repeat: no-repeat; 
+	-webkit-background-size: 23px 30px; 
+	        background-size: 23px 30px; 
 }
 
 .quicklinks.cta li:nth-child(1) .btn-primary:after { background-color: #2b67a8; }
@@ -723,7 +723,7 @@ html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px
 .block-double .inside { max-width: 1120px; margin: 0 auto; }
 .block-double .inside:after { content: ''; display: table; clear: both; }
 
-.block-double .block-social-feed { float: left; width: 830px; background: #152848 url(images/shadow.png) repeat-y left top; box-shadow: 0 0 15px rgba(0,0,0, .3); padding: 40px 77px 0; }
+.block-double .block-social-feed { float: left; width: 830px; background: #152848 url(images/shadow.png) repeat-y left top; box-shadow: 0 0 15px rgba(0,0,0, .3); padding: 40px 96px 0; }
 .feed .feed-body-content {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 390px;
@@ -796,10 +796,6 @@ html[lang='en'] .feed .feed-body { margin: 0 -69px; }
 
 .block-double .block-ffc .link { display: block; position: relative; padding-bottom: 50px; text-align: center; font-weight: 900; font-size: 15px; color: #152848; text-transform: uppercase;  }
 .block-double .block-ffc .link:after { content: ''; width: 28px; height: 5px; background-color: #e71f61; position: absolute; left: 50%; margin-left: -20px; bottom: 20px; }
-
-.feed .feed-video { display: block; margin: 0 0 50px; text-align: center;
-}
-
 
 /* ------------------------------------------------------------ *\
 	Block Playlist
@@ -1660,7 +1656,7 @@ html[lang='en'] .quicklinks.objectifs .block-title { font-size: 22px; }
 
 /*  Modifier: Product Compact */
 
-.product-compact { position: relative; min-height: 250px; padding-top: 0; margin-bottom: 40px; }
+.product-compact { position: relative; min-height: 250px; padding-top: 0; }
 
 .product-compact em { padding-bottom: 14px; }
 
@@ -2620,7 +2616,7 @@ button.js-mySelection:hover:after { -webkit-transition-delay: .175s; transition-
 	Account Widget
 \* ------------------------------------------------------------ */
 
-#cxpmClientAccountWidget { position: absolute!important; top: 4px; right: 244px; padding-right: 0; }
+#cxpmClientAccountWidget { position: absolute; top: 4px; right: 244px; padding-right: 0; }
 #cxpmClientAccountWidget:before { content: '\f005'; position: absolute; top: 2px; right: -34px; font-family: FontAwesome; font-size: 14px; color: #bec7d1; }
 
 #cxpmClientAccountWidget .openCapTrigger { font-size: 11px!important; font-weight: 600!important; letter-spacing: 0.2em; color: #152848; text-transform: uppercase; }
