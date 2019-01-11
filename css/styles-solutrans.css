@@ -415,7 +415,7 @@ header.header-fixed .mn-menu > .mn-menu-item:nth-last-child(2) > .mn-link { font
 .front #zone1 .la-slider .la-item-tag,
 .front #zone1 .la-slider .la-item-title { display: block; max-width: 480px; }
 
-.front #zone1 .la-slider .la-item-title { font-weight: 600; font-size: 43px; color: #fff; line-height: 1.1; margin: 0 0 15px; }
+.front #zone1 .la-slider .la-item-title { font-weight: 600; font-size: 36px; color: #fff; line-height: 1.1; margin: 0 0 15px; }
 
 .front #zone1 .la-slider .la-item-tag { display: inline-block; position: static; padding: 0; background: none; font-weight: 600; font-size: 10px; color: #fff; text-transform: uppercase; letter-spacing: .3em; margin: 0 0 20px; }
 
