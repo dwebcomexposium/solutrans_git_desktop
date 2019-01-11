@@ -2616,7 +2616,7 @@ button.js-mySelection:hover:after { -webkit-transition-delay: .175s; transition-
 	Account Widget
 \* ------------------------------------------------------------ */
 
-#cxpmClientAccountWidget { position: absolute; top: 4px; right: 244px; padding-right: 0; }
+#cxpmClientAccountWidget { position: absolute!important; top: 4px; right: 244px; padding-right: 0; }
 #cxpmClientAccountWidget:before { content: '\f005'; position: absolute; top: 2px; right: -34px; font-family: FontAwesome; font-size: 14px; color: #bec7d1; }
 
 #cxpmClientAccountWidget .openCapTrigger { font-size: 11px!important; font-weight: 600!important; letter-spacing: 0.2em; color: #152848; text-transform: uppercase; }
