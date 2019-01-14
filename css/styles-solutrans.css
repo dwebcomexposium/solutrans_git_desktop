@@ -415,7 +415,7 @@ header.header-fixed .mn-menu > .mn-menu-item:nth-last-child(2) > .mn-link { font
 .front #zone1 .la-slider .la-item-tag,
 .front #zone1 .la-slider .la-item-title { display: block; max-width: 480px; }
 
-.front #zone1 .la-slider .la-item-title { font-weight: 600; font-size: 36px; color: #fff; line-height: 1.1; margin: 0 0 15px; }
+.front #zone1 .la-slider .la-item-title { font-weight: 600; font-size: 43px; color: #fff; line-height: 1.1; margin: 0 0 15px; }
 
 .front #zone1 .la-slider .la-item-tag { display: inline-block; position: static; padding: 0; background: none; font-weight: 600; font-size: 10px; color: #fff; text-transform: uppercase; letter-spacing: .3em; margin: 0 0 20px; }
 
@@ -499,7 +499,7 @@ html[lang='en'] .quicklinks.cta li:nth-child(2) .btn-primary span { width: 110px
 .quicklinks.cta li:nth-child(3) .btn-primary span { width: 90px; }
 .quicklinks.cta li:nth-child(4) .btn-primary span { width: 90px; }
 .quicklinks.cta li:nth-child(5) .btn-primary span { width: 120px; }
-html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px; }
+/*html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px; }*/
 
 
 .quicklinks.cta li:nth-child(1) .btn-primary:before { width: 25px; height: 35px; background-image: url(images/icons/ico-calc.svg); background-position: center center; background-repeat: no-repeat; 
@@ -723,7 +723,7 @@ html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px
 .block-double .inside { max-width: 1120px; margin: 0 auto; }
 .block-double .inside:after { content: ''; display: table; clear: both; }
 
-.block-double .block-social-feed { float: left; width: 830px; background: #152848 url(images/shadow.png) repeat-y left top; box-shadow: 0 0 15px rgba(0,0,0, .3); padding: 40px 96px 0; }
+.block-double .block-social-feed { float: left; width: 830px; background: #152848 url(images/shadow.png) repeat-y left top; box-shadow: 0 0 15px rgba(0,0,0, .3); padding: 40px 77px 0; }
 .feed .feed-body-content {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 390px;
@@ -796,6 +796,10 @@ html[lang='en'] .feed .feed-body { margin: 0 -69px; }
 
 .block-double .block-ffc .link { display: block; position: relative; padding-bottom: 50px; text-align: center; font-weight: 900; font-size: 15px; color: #152848; text-transform: uppercase;  }
 .block-double .block-ffc .link:after { content: ''; width: 28px; height: 5px; background-color: #e71f61; position: absolute; left: 50%; margin-left: -20px; bottom: 20px; }
+
+.feed .feed-video { display: block; margin: 0 0 50px; text-align: center;
+}
+
 
 /* ------------------------------------------------------------ *\
 	Block Playlist
@@ -1656,7 +1660,7 @@ html[lang='en'] .quicklinks.objectifs .block-title { font-size: 22px; }
 
 /*  Modifier: Product Compact */
 
-.product-compact { position: relative; min-height: 250px; padding-top: 0; }
+.product-compact { position: relative; min-height: 250px; padding-top: 0; margin-bottom: 40px; }
 
 .product-compact em { padding-bottom: 14px; }
 
