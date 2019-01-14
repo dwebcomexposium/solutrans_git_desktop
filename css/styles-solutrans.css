@@ -1433,7 +1433,7 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
     Newsletter popup
 \* ------------------------------------------------------------ */
 
-header .newsletter-form { display: none; }
+/*header .newsletter-form { display: none; }*/
 
 /* ------------------------------------------------------------ *\
 	Quicklinks Navigation
@@ -1821,7 +1821,7 @@ body.content87725 #zone3 .quicklinks.ctainterne  { display: none; }
 
 .newsletter-form p { padding-right: 120px; margin: 0; font-size: 15px; line-height: 1.33; letter-spacing: 0.1em; color: #152848; }
 
-.newsletter-form .cxp-newsletter { position: absolute; width: 545px; height: 272px; top: 50%; left: 50%; padding: 35px 43px 51px 50px; margin: -136px 0 0 -272px; background: #fff; }
+.newsletter-form .nf-main-content { position: absolute; width: 545px; height: 300px; top: 50%; left: 50%; padding: 35px 43px 51px 50px; margin: -136px 0 0 -272px; background: #fff; }
 .newsletter-form .inside { padding: 0; }
 .newsletter-form .nf-title { font-size: 37px; font-weight: 900; color: #152848; text-transform: uppercase; padding: 0; margin: 0 0 21px; border: 0; }
 
@@ -1834,7 +1834,9 @@ body.content87725 #zone3 .quicklinks.ctainterne  { display: none; }
 }
 .newsletter-form .form-close:hover { opacity: .7; }
 
-.newsletter-form .nf-form-input { float: left; width: 280px; padding: 0; margin: 34px 0 0; }
+.newsletter-form .nf-form-input { float: left; width: 280px; padding: 0; margin: 20px 0 0; }
+
+
 .newsletter-form .nf-form-input input { width: 279px; height: 39px; min-height: 39px; padding: 0 22px; border: 1px solid #152848; border-radius: 0; font-size: 16px; font-weight: 400; font-style: normal; color: #152848; }
 
 .newsletter-form .nf-form-input input::-webkit-input-placeholder { color: #152848 !important; opacity: .5 !important; font-size: 16px !important; letter-spacing: 0.05em; font-style: normal !important; }
@@ -1842,8 +1844,8 @@ body.content87725 #zone3 .quicklinks.ctainterne  { display: none; }
 .newsletter-form .nf-form-input input:-moz-placeholder { color: #152848 !important; opacity: .5 !important; font-size: 16px !important; letter-spacing: 0.05em; font-style: normal !important; }
 .newsletter-form .nf-form-input input:-ms-input-placeholder { color: #152848 !important; opacity: .5 !important; font-size: 16px !important; letter-spacing: 0.05em; font-style: normal !important; }
 
-.newsletter-form .nf-form-submit { float: right; padding: 0; margin: 34px 0 0; }
-.newsletter-form .nf-form-submit button { width: 161px; height: 39px; border: 0; font-size: 17px; font-weight: 700; letter-spacing: 0.15em; color: #fff; text-transform: uppercase; background: #e71f61; 
+.newsletter-form .nf-form-submit { padding: 0; margin: -39px 0 0; float: right; }
+.newsletter-form .nf-form-submit button { width: 151px; height: 39px; border: 0; font-size: 17px; font-weight: 700; letter-spacing: 0.15em; color: #fff; text-transform: uppercase; background: #e71f61; 
 	-webkit-transition: background .3s; 
 	     -o-transition: background .3s; 
 	        transition: background .3s; 
@@ -1853,6 +1855,9 @@ body.content87725 #zone3 .quicklinks.ctainterne  { display: none; }
 .newsletter-form .nf-form-submit button i,
 .newsletter-form label { display: none; }
 
+.newsletter-form .optin-container p { font-size: 12px;  }
+.newsletter-form .optin-container .nf-form-input input { display: inline-block; width: auto; height: auto; margin-right: 10px;
+}
 
  
  /* ------------------------------------------------------------ *\
