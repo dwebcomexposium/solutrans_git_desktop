@@ -145,8 +145,7 @@
 				});
 			}
 
-			/*
-                        // Newsletter form
+			// Newsletter form
 			if ($('.newsletter-form').length) {
 				var $form = $('.newsletter-form');
 
@@ -172,8 +171,7 @@
 				if (window.location.href.indexOf('#newsletter') >= 0) {
 					$form.addClass('form-shown');
 				}
-			}*/
-
+			}
 
 
 			$('header').removeClass('is-stuck');
