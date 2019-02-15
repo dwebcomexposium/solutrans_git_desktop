@@ -2650,3 +2650,6 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 \* ------------------------------------------------------------ */
 
 .article-content hr { clear: both; background: none; margin: 0; }
+
+body.catalogue [class^='ico'] { font-size: 2rem; }
+
