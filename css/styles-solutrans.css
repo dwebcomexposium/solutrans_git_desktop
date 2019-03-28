@@ -1143,7 +1143,7 @@ body.article #zone3.top .block-socials-small { opacity: 1; }
 .lien2:before { background-color: #203d6d; }
 .lien2:after { background-color: #152848; }
 
-.lien2:hover { text-decoration: none; }
+.lien2:hover { text-decoration: none; color: #fff!important; }
 
 .lien2:hover:before,
 .lien2:hover:after { bottom: 0; }
@@ -1899,7 +1899,7 @@ body.content87725 #zone3 .quicklinks.ctainterne  { display: none; }
 #zone2 .faq .fc-item-content a { text-decoration: underline;}
 #zone2 .faq .fc-item-content .lien1 { color: #fff;}
 #zone2 .faq .fc-item-content .lien1:hover { color: #e71f61;}
-#zone2 .faq .fc-item-content .lien2:hover { color: #152848;}
+#zone2 .faq .fc-item-content .lien2:hover { color: #152848!important;}
 
 
 
@@ -2661,3 +2661,7 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 \* ------------------------------------------------------------ */
 
 .article-content hr { clear: both; background: none; margin: 0; }
+
+
+
+
