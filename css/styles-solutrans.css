@@ -1427,7 +1427,8 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
 .block-sectors-links .block-body ul a { display: block; width: 120px; height: 120px; border-radius: 120px; background: transparent; position: relative; }
 
 }
-
+.error404 #zone1, 
+.error404 #zone2 .block.block-page.list-articles {display: none;}
 
 /* ------------------------------------------------------------ *\
     Newsletter popup
