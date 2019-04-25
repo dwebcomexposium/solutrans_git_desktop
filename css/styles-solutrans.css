@@ -1427,8 +1427,7 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
 .block-sectors-links .block-body ul a { display: block; width: 120px; height: 120px; border-radius: 120px; background: transparent; position: relative; }
 
 }
-.error404 #zone1, 
-.error404 #zone2 .block.block-page.list-articles {display: none;}
+
 
 /* ------------------------------------------------------------ *\
     Newsletter popup
@@ -1714,8 +1713,10 @@ html[lang='en'] .quicklinks.objectifs .block-title { font-size: 22px; }
 
 .participation { max-width: 1060px; padding-bottom: 103px; margin: 0 auto; }
 
+.participation .ql-list { display: flex;  flex-wrap: wrap; justify-content: center; }
+
 .participation .ql-list:after { content: ''; display: table; line-height: 0; clear: both; }
-.participation .btn-primary { padding: 0; border: 0; font-size: 25px; line-height: 1; color: #e71f61; text-transform: none; background: none; }
+.participation .btn-primary { padding: 0; border: 0; font-size: 25px; line-height: 1; color: #e71f61; text-transform: none; background: none; margin-bottom: 45px; }
 .participation .btn-primary:hover { text-decoration: none; }
 .participation .btn-primary:hover .txt-btn { text-decoration: underline; }
 
@@ -1723,19 +1724,33 @@ html[lang='en'] .quicklinks.objectifs .block-title { font-size: 22px; }
 .participation .ql-item + .ql-item { margin-left: 80px; }
 .participation .ql-item:nth-child(1) a { display: block; max-width: 280px; line-height: 1; }
 .participation .ql-item:nth-child(1) a span { display: inline-block; max-width: 170px; text-align: left; }
-.participation .ql-item:nth-child(1) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 16px; vertical-align: middle; background: url(images/ico-magnyfing-glass.jpg) no-repeat 0 0; 
+.participation .ql-item:nth-child(1) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 16px; vertical-align: middle; background: url(images/lp-ico-speaker.png) no-repeat 0 0; 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
 }
-.participation .ql-item:nth-child(2) a { display: block; max-width: 335px; line-height: 1; }
-.participation .ql-item:nth-child(2) a span { display: inline-block; max-width: 230px; text-align: left; }
-.participation .ql-item:nth-child(2) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 12px; vertical-align: middle; background: url(images/ico-speaker.png) no-repeat 0 0; 
+.participation .ql-item:nth-child(2) a { display: block; max-width: 355px; line-height: 1; }
+.participation .ql-item:nth-child(2) a span { display: inline-block; max-width: 250px; text-align: left; }
+.participation .ql-item:nth-child(2) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 12px; vertical-align: middle; background: url(images/lp-ico-booth.png) no-repeat 0 0; 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
 }
 .participation .ql-item:nth-child(3) a { display: block; max-width: 294px; line-height: 1; }
-.participation .ql-item:nth-child(3) a span { display: inline-block; max-width: 190px; text-align: left; }
-.participation .ql-item:nth-child(3) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 7px; vertical-align: middle; background: url(images/ico-newspapaer.png) no-repeat 0 0; 
+.participation .ql-item:nth-child(3) a span { display: inline-block; max-width: 150px; text-align: left; }
+.participation .ql-item:nth-child(3) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 7px; vertical-align: middle; background: url(images/lp-ico-lead.png) no-repeat 0 0; 
+	-webkit-background-size: 100% 100%; 
+	        background-size: 100% 100%; 
+}
+
+.participation .ql-item:nth-child(4) a { display: block; max-width: 294px; line-height: 1; }
+.participation .ql-item:nth-child(4) a span { display: inline-block; max-width: 190px; text-align: left; }
+.participation .ql-item:nth-child(4) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 7px; vertical-align: middle; background: url(images/lp-ico-star.png) no-repeat 0 0; 
+	-webkit-background-size: 100% 100%; 
+	        background-size: 100% 100%; 
+}
+
+.participation .ql-item:nth-child(5) a { display: block; max-width: 344px; line-height: 1; }
+.participation .ql-item:nth-child(5) a span { display: inline-block; max-width: 240px; text-align: left; }
+.participation .ql-item:nth-child(5) a:before { content: ''; display: inline-block; width: 79px; height: 79px; margin-right: 7px; vertical-align: middle; background: url(images/lp-ico-club.png) no-repeat 0 0; 
 	-webkit-background-size: 100% 100%; 
 	        background-size: 100% 100%; 
 }
