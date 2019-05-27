@@ -173,7 +173,6 @@
 				}
 			}
 
-
 			$('header').removeClass('is-stuck');
 
 			if( $('#zone1 .la-slider').length ) {
@@ -353,8 +352,14 @@
   			videoProtocol: 'https:'
 		});
 	};
-		
 
+	$('a[href*="#newsletter"]').off('click').on('click', function (e){
+        e.preventDefault();
+        
+        var $form = $('.newsletter-form');
+        $form.addClass('form-shown');
+	});
+		
 	});
 
 })(jQuery, window, document);
