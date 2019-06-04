@@ -135,9 +135,9 @@ body:not(.front) .site-wrapper:before { content: ''; width: 100%; height: 335px;
 	Header
 \* ------------------------------------------------------------ */
 
-.site-banner { width: 100%; position: absolute; left: 0; top: 0; background: #fff url(images/dots.png) repeat-x left top; color: #0b1a31; z-index: 999; }
-.site-banner:before { content: ''; position: absolute; width: 100%; height: 34px; top: 0; left: 0; background: #e8eff3; }
-.site-banner .inside { padding-top: 66px; position: static; }
+.site-banner { width: 100%; position: absolute; left: 0; top: 0; background: #fff; color: #0b1a31; z-index: 999; }
+/*.site-banner:before { content: ''; position: absolute; width: 100%; height: 34px; top: 0; left: 0; background: #e8eff3; }*/
+.site-banner .inside { padding-top: 60px; position: static; }
 .site-banner .inside:after { content: ''; display: table; clear: both; }
 
 .header-socials { position: absolute; left: 90px; top: 1px; }
@@ -183,7 +183,7 @@ html[lang='fr'] .lang-switcher .ls-lang-fr { display: none; }
 html[lang='en'] .lang-switcher .ls-lang-en { display: none; }
 
 
-.header-slogan { float: left; margin-left: -55px; margin-top: 35px; }
+.header-slogan { float: left; margin-left: -55px; margin-top: 50px; }
 .header-slogan p, .header-slogan h1 { margin: 0; font-weight: 400; font-size: 13px; color: #0b1a31; text-transform: uppercase; letter-spacing: 0.2em; line-height: 1.15; border-bottom: 0; padding-bottom: 0; }
 .header-slogan p span, .header-slogan h1 span { display: block; letter-spacing: 0.28em; }
 
@@ -200,7 +200,7 @@ html[lang='en'] .lang-switcher .ls-lang-en { display: none; }
 
 /* CTA */
 
-.header-reserve { float: right; margin: 10px -2px 0 0; }
+.header-reserve { float: right; margin: 25px -2px 0 0; }
 
 .header-reserve .outer { -webkit-transform: skewX(-20deg); -ms-transform: skewX(-20deg); -o-transform: skewX(-20deg); transform: skewX(-20deg); position: relative; z-index: 1; 
 	background: rgb(91,75,144);
@@ -2672,12 +2672,14 @@ header.header-fixed #cxpmClientAccountWidget { position: fixed!important; top: 1
 
 header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 
+/*header patronage*/
+.header-logo h3 { text-align: center; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important; font-size: 12px; font-weight: normal; color: #0c1b32; margin-bottom: 15px; }
+.header-logo { margin-top: -50px;  }
+
+
+
 /* ------------------------------------------------------------ *\
 	Misc
 \* ------------------------------------------------------------ */
 
 .article-content hr { clear: both; background: none; margin: 0; }
-
-
-
-
