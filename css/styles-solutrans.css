@@ -200,7 +200,7 @@ html[lang='en'] .lang-switcher .ls-lang-en { display: none; }
 
 /* CTA */
 
-.header-reserve { float: right; margin: 25px -2px 0 0; }
+.header-reserve { float: right; margin: 8px -2px 0 0; }
 
 .header-reserve .outer { -webkit-transform: skewX(-20deg); -ms-transform: skewX(-20deg); -o-transform: skewX(-20deg); transform: skewX(-20deg); position: relative; z-index: 1; 
 	background: rgb(91,75,144);
