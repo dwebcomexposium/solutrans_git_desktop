@@ -49,3 +49,7 @@ height: 300px;
     margin: 0;
     padding: 0;
 }
+
+/* --- Page 404 - Héritage de la zone 1 caché --- */
+.body-corpo.error404 #zone1{display:none;}
+
