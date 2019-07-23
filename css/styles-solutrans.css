@@ -1,9 +1,3 @@
-/* @override 
-	https://solutrans.comexposium-admin.com/theme/solutrans_desktop/css/styles-solutrans.css
-	https://solutrans-en.comexposium-admin.com/theme/solutrans_desktop/css/styles-solutrans.css */
-	
-/*	<link rel="stylesheet" type="text/css" href="/theme/solutrans_desktop/css/styles-solutrans.css">*/
-
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
@@ -958,7 +952,7 @@ body.article #zone3.top .block-socials-small { opacity: 1; }
 
 
 
-.layout-2-col .list-articles .inside, .error404 .layout-2-col .inside, #zone2 .partner-list, .layout-2-col .sitemap .inside, .layout-2-col .search-result .inside,  #zone2 .survey-vote, #zone2 .mod-catal { max-width: 1120px; margin: 0 auto; }
+.layout-2-col .list-articles .inside, .error404 .layout-2-col .inside, #zone2 .partner-list, .layout-2-col .sitemap .inside, .layout-2-col .search-result .inside,  #zone2 .survey-vote, #zone2 .mod-catal, #zone2  .event-view-full { max-width: 1120px; margin: 0 auto; }
 
 
 .layout-2-col .list-articles .main-title-with-link { border: 0; text-align: center; margin-bottom: 50px; }
@@ -2232,7 +2226,7 @@ a.btn-primary.btn-medium {float: right; }
 .mod-catal h1,
 .mod-catal h2 {margin: 0; padding: 0; float: none; font-weight: 900; font-size: 37px; color: #152848; text-transform: uppercase; line-height: 1; text-align: center; border: 0;  }
 
-.mod-catal .esf-form-zone { border: 6px solid #f0f0f0; border-radius : 0; margin-top : 0; padding : 40px; background: #fff}
+.mod-catal .esf-form-zone { border: 6px solid #f0f0f0; border-radius : 0; margin-top : 40px; padding : 40px; background: #fff}
 .mod-catal .esf-intro-title { color : #e71f61; font-size : 22px; font-weight : 400; text-transform: uppercase; }
 .mod-catal .esf-search-line .form-select { border-radius : 0; }
 .mod-catal .esf-search-line .form-select select { padding-bottom : 7px; padding-top : 8px; }
@@ -2678,6 +2672,11 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 
 
 
+
+
+
+
+
 /* ------------------------------------------------------------ *\
 	Misc
 \* ------------------------------------------------------------ */
@@ -2686,4 +2685,80 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 
 
 
+/* ------------------------------------------------------------ *\
+    Event calendar
+\* ------------------------------------------------------------ */
 
+.page-events { font-family: 'Source Sans Pro', sans-serif; color: #152848; font-size: 14px; }
+
+/*.page-events .esf-advanced-search { margin-top: 20px; }*/
+
+.page-events #frm_simple_search ul.evsf-ampm-list { clear: both; margin-top: 20px; padding-top: 10px;  }
+.page-events .catal-ex-item-buttons {margin: 20px; text-align: center;  }
+.page-events div.catal-ex-item-group-title .catal-ex-item-buttons {margin: 0; }
+.page-events .edito.mod-catal {padding-top: 0; }
+.mod-catal.catal-nav-ex .catal-nav-ex-more-link { color: #152848; }
+.mod-catal.catal-nav-ex .catal-nav-ex-more-link .icon-catal {color: #152848; }
+.page-events .mod-catal.catal-nav-ex { margin-bottom: 0; }
+.page-events .catal-ex-item-img {margin-right: 20px; }
+.page-events .catal-ex-item-stand-item {background-color: #cef0fc; margin: 10px 0; padding: 7px 14px; }
+
+.page-events .catal-ex-item-stand-item p.date_event {font-style: normal!important; font-size: 14px; font-weight: 300; line-height: 1; }
+
+
+
+.event-type-li:before {list-style: none; border: 2px solid #e71f61!important;
+    -webkit-transform: none!important;
+        -ms-transform: none!important;
+        transform: none!; }
+        
+.page-events .mod-catal h2 {padding: 20px 0 10px; border-bottom:0; font-weight: 300; text-transform: uppercase; letter-spacing: 2px; text-align: left; font-size: 20px; }
+.page-events .catal-ed-main-session {float: left; padding-left: 50px; width: 640px; }
+.page-events .catal-ed-main-address {margin: 0; padding-top: 7px!important; }
+.persons-event {font-weight: 700; color:#e71f61 ; }
+.persons-event:before {display: none!important; } 
+.event-ed-group { border-top: 0; border-bottom: 0; }
+.event-ed-pr .btn-primary-event { width: 100%; padding: 0; font-weight: 400; text-transform: none; color: #ffffff; padding: 20px; background-color: #e71f61; border: 0; }
+.event-ed-pr .event-ed-pr-item {width: 100%; border: 0; margin: 0; padding: 0; }
+.mod-catal .catal-ed-products .catal-edp-item {border-bottom: 0;}
+.page-events .esf-search-line .form-select { display: block; }
+.page-events .la-item-img { width: 100%; height: 100%; margin: 0; }
+.page-events .slider {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;  }
+
+.page-events .mod-catal.catal-nav-ex .catal-nav-ex-link .icon-catal {padding-top: 2px; }
+
+.ac-list .ac-item a {font-size: 11px; color:#152848; text-decoration: underline; }
+.ac-list .ac-item a:hover {background: none; text-decoration: none; }
+
+.ac-switcher:checked~.ac-list .ac-item {width: auto;  }
+.ac-switcher~.ac-list .ac-item a:before {display: none; }
+.ac-list {background-color: #fff; padding: 10px!important; width: 450px!important;
+
+    -webkit-box-shadow: -15px 15px 0 rgba(0, 0, 0, .08); 
+            box-shadow: -15px 15px 0 rgba(0, 0, 0, .08); 
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box; }
+            
+#tooltip-title:before, #tooltip-title:after {display: none; }
+#tooltip-title {display: none; }
+
+
+.mod-catal.catal-nav-affix, .mod-catal.catal-nav-ex {display: none; }
+
+
+.page-events dialog {
+
+    -webkit-box-shadow: -15px 15px 0 rgba(0, 0, 0, .08); 
+            box-shadow: -15px 15px 0 rgba(0, 0, 0, .08); 
+    -webkit-box-sizing: border-box; 
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box; }
+            
+            
+            
+            
+.page-events img.catal-ed-main-media  {margin: 50px 0 0!important; }
+.event-view-full h1 {text-align: left }
+.page-events button.js-mySelection {margin-left:20px!important; }
+.page-events .catal-ex-item-buttons {margin-right:0; }
