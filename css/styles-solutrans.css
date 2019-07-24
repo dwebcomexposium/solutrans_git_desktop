@@ -2755,10 +2755,21 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
        -moz-box-sizing: border-box; 
             box-sizing: border-box; }
             
+   
+
+
+
             
-            
-            
-.page-events img.catal-ed-main-media  {margin: 50px 0 0!important; }
-.event-view-full h1 {text-align: left }
+.page-events img.catal-ed-main-media  {margin: 50px 20px 0!important; }
 .page-events button.js-mySelection {margin-left:20px!important; }
-.page-events .catal-ex-item-buttons {margin-right:0; }
+.page-events .catal-ex-item-buttons {  }
+.page-events .catal-ex-item-buttons button {margin-top: 0!important; }
+.page-events .catal-ex-item-buttons button:first-child {background: none!important; }
+
+
+.page-events div.block.block-page.edito.mod-catal .inside {display: flex; flex-direction: column-reverse; justify-content: center; }
+.page-events div.block.block-page.edito.mod-catal .inside div {text-align: center;  }
+.event-view-full h1 {text-align: center!important;  }
+
+
+
