@@ -1,3 +1,10 @@
+/*debut*/
+/* @override 
+	https://solutrans.comexposium-admin.com/theme/solutrans_desktop/css/styles-solutrans.css
+	https://solutrans-en.comexposium-admin.com/theme/solutrans_desktop/css/styles-solutrans.css */
+	
+/*	<link rel="stylesheet" type="text/css" href="/theme/solutrans_desktop/css/styles-solutrans.css">*/
+
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
@@ -496,13 +503,13 @@ html[lang='en'] .quicklinks.cta li:nth-child(2) .btn-primary span { width: 110px
 /*html[lang='en'] .quicklinks.cta li:nth-child(5) .btn-primary span { width: 110px; }*/
 
 
-.quicklinks.cta li:nth-child(1) .btn-primary:before { width: 25px; height: 35px; background-image: url(images/icons/ico-calc.svg); background-position: center center; background-repeat: no-repeat; 
-	-webkit-background-size: 25px 35px; 
-	        background-size: 25px 35px; 
+.quicklinks.cta li:nth-child(1) .btn-primary:before { width: 19px; height: 35px; background-image: url(images/icons/ico-mobile-1.svg); background-position: center center; background-repeat: no-repeat; 
+	-webkit-background-size: 19px 35px; 
+	        background-size: 19px 35px; 
 }
-.quicklinks.cta li:nth-child(2) .btn-primary:before { width: 37px; height: 37px; background-image: url(images/icons/ico-exhibit.svg); background-position: center center; background-repeat: no-repeat; 
-	-webkit-background-size: 37px 37px; 
-	        background-size: 37px 37px; 
+.quicklinks.cta li:nth-child(2) .btn-primary:before { width: 28px; height: 30px; background-image: url(images/icons/ico-date-2.svg); background-position: center center; background-repeat: no-repeat; 
+	-webkit-background-size: 28px 30px; 
+	        background-size: 28px 30px; 
 }
 .quicklinks.cta li:nth-child(3) .btn-primary:before { width: 36px; height: 37px; background-image: url(images/icons/ico-map-secondary.svg); background-position: center center; background-repeat: no-repeat; 
 	-webkit-background-size: 36px 30px; 
@@ -2791,3 +2798,8 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 .block-page.contacts-list { width: 960px; margin: 0 auto; }
 
 .block-page.contacts-list .cl-item-desc {margin: 0; }
+
+
+
+
+/*fin*/
