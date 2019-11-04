@@ -2799,7 +2799,9 @@ header.header-fixed #cxpmClientAccountWidget .widget-text { display: none; }
 
 .block-page.contacts-list .cl-item-desc {margin: 0; }
 
+.block-page.contacts-list .cl-item-web .label {display: none; }
 
+.block-page.contacts-list .cl-item-web a:hover {color: #e71f61; }
 
 
 /*fin*/
