@@ -53,3 +53,16 @@ height: 300px;
 /* --- Page 404 - Héritage de la zone 1 caché --- */
 .body-corpo.error404 #zone1{display:none;}
 
+
+.faq span.fs-item-nb {
+    display: none;
+}
+
+#zone2 .faq a.fs-item-link {
+    border-radius: 30px;
+}
+
+li.fs-item {
+    padding: 5px 15px;
+    display: inline-block;
+}
