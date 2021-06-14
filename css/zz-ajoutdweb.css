@@ -66,3 +66,9 @@ li.fs-item {
     padding: 5px 15px;
     display: inline-block;
 }
+
+.article-wrapper .article-content a:hover span {
+    text-decoration: none;
+    color: aliceblue;
+    display: none;
+}
