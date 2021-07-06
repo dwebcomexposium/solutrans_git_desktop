@@ -74,5 +74,9 @@ li.fs-item {
 }
 /*new catalog*/
 
-.catalogue .intro-head .intro__title { display: none; }
-#catalog-v2 { font-family: 'Gotham', sans-serif!important; color: #09a3d9!important; margin-top: 140px; }
+/*new catalog*/
+
+#catalog-v2 .bgTint {
+    background-color: #09a3d9!important;
+}
+
