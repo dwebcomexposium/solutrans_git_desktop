@@ -72,11 +72,13 @@ li.fs-item {
     color: aliceblue;
     display: none;
 }
-/*new catalog*/
 
-/*new catalog*/
-
+/* --- New catalog --- */
 #catalog-v2 .bgTint {
     background-color: #09a3d9!important;
+}
+/*Mise en avant RS*/
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
+    background: #09a3d9!important;
 }
 
