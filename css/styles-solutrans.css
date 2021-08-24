@@ -186,7 +186,7 @@ html[lang='fr'] .lang-switcher .ls-lang-fr { display: none; }
 html[lang='en'] .lang-switcher .ls-lang-en { display: none; }
 
 
-.header-slogan { float: left; margin-left: -55px; margin-top: 50px; }
+.header-slogan { float: left; margin-top: 50px; }
 .header-slogan p, .header-slogan h1 { margin: 0; font-weight: 400; font-size: 13px; color: #0b1a31; text-transform: uppercase; letter-spacing: 0.2em; line-height: 1.15; border-bottom: 0; padding-bottom: 0; }
 .header-slogan p span, .header-slogan h1 span { display: block; letter-spacing: 0.28em; }
 
