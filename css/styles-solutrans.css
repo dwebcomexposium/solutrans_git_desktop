@@ -2702,3 +2702,4 @@ header.header-fixed .header-reserve { right: 90px; position: fixed; }
 @media (max-width: 1520px) {
 	header.header-fixed .header-reserve { display: none; }
 }
+.article-wrapper .article-content .cl-item-email a:before { cposition: relative;  }
