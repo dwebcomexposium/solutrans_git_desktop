@@ -2706,3 +2706,6 @@ header.header-fixed .header-reserve { right: 90px; position: fixed; }
 
 
 .ac-switcher:checked ~ .ac-list .ac-item a { font-size: 12px; }
+.mod-catal.catal-nav-affix {
+    display: none;
+}
