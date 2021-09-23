@@ -85,3 +85,6 @@ li.fs-item {
 .exposez div#zone1 {
     margin-top: 40px;
 }
+.mod-catal.catal-nav-affix {
+    display: none;
+}
