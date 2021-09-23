@@ -2703,3 +2703,6 @@ header.header-fixed .header-reserve { right: 90px; position: fixed; }
 	header.header-fixed .header-reserve { display: none; }
 }
 .article-wrapper .article-content .cl-item-email a:before { cposition: relative;  }
+
+
+.ac-switcher:checked ~ .ac-list .ac-item a { font-size: 12px; }
