@@ -78,9 +78,10 @@ li.fs-item {
     background-color: #09a3d9!important;
 }
 /*Mise en avant RS*/
-#catalog-v2 .CatalogCard-title.CatalogCard-title--premium, #catalog-v2 .CatalogCardLine .CatalogCard-title--premium {
-    color: red!important;
-font-weight: bold!important;	
+#catalog-v2 .CatalogCard-title.CatalogCard-title--premium {
+    background: none!important;
+    color: #E71F61!important;
+    font-weight: bold;
 }
 
 /*surbrillance texte blanc sur fond bleu*/
