@@ -79,8 +79,8 @@ li.fs-item {
 }
 /*Mise en avant RS*/
 #catalog-v2 .CatalogCard-title.CatalogCard-title--premium, #catalog-v2 .CatalogCardLine .CatalogCard-title--premium {
-    color: red;
-font-weight: bold;	
+    color: red!important;
+font-weight: bold!important;	
 }
 
 /*surbrillance texte blanc sur fond bleu*/
