@@ -1104,7 +1104,8 @@ body.article #zone3.top .block-socials-small { opacity: 1; }
 .lien1 ~ .lien1, .lien2 ~ .lien2, .lien4 ~ .lien4 { margin-left: 20px; }
 
 .article-wrapper .article-content .cl-content:after { content: ''; display: table; clear: both; }
-.article-wrapper .article-content .cl-item { width: 380px; height: 180px; margin: 0 0 40px 40px; padding: 0; float: left; box-shadow: 0 0 16px rgba(0,0,0, .3); background-color: #e71f61; color: #fff; }
+.article-wrapper .article-content .cl-item { width: 380px; height: 180px; margin: 0 0 40px 40px; padding: 0; float: left; box-shadow: 0 0 16px rgba(0,0,0, .3); background-color: #e71f61; color: #fff; border: none; }
+
 /*.article-wrapper .article-content .cl-item:nth-child(even) { margin-left: 40px; }*/
 
 .article-wrapper .article-content .cl-item-illust { padding: 0; overflow: hidden; }
