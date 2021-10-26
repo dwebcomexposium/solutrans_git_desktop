@@ -2710,3 +2710,6 @@ header.header-fixed .header-reserve { right: 90px; position: fixed; }
 .mod-catal.catal-nav-affix {
     display: none;
 }
+
+.article-wrapper .article-content .cl-item-web span {display: none; }
+.article-wrapper .article-content .cl-item-web a {display: inline-block; background: #ffffff; padding: 0 10px; text-decoration: none; margin-top: 7px; font-size: 13px; font-weight: bold; }
