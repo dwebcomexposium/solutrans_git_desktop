@@ -52,7 +52,7 @@ body:not(.front) .site-wrapper:before { content: ''; width: 100%; height: 335px;
 
 
 .ico-arrow-hollow { width: 14px; height: 16px; background-image: url(images/ico-arrow-hollow.png); }
-.ico-reserve { width: 36px; height: 29px; background-image: url(images/icons/ico-badge2-white.svg); -webkit-background-size: 36px 29px; background-size: 36px 29px; }
+.ico-reserve { width: 36px; height: 39px; background-image: url(images/icons/ico-reserve-white.svg); -webkit-background-size: 36px 39px; background-size: 36px 39px; }
 body.exposez .ico-reserve { width: 36px; height: 39px; background-image: url(images/icons/ico-reserve-white.svg); -webkit-background-size: 36px 39px; background-size: 36px 39px; }
 
 
@@ -186,7 +186,7 @@ html[lang='fr'] .lang-switcher .ls-lang-fr { display: none; }
 html[lang='en'] .lang-switcher .ls-lang-en { display: none; }
 
 
-.header-slogan { float: left; margin-top: 50px; }
+.header-slogan { float: left; /*margin-left: -55px;*/ margin-top: 50px; }
 .header-slogan p, .header-slogan h1 { margin: 0; font-weight: 400; font-size: 13px; color: #0b1a31; text-transform: uppercase; letter-spacing: 0.2em; line-height: 1.15; border-bottom: 0; padding-bottom: 0; }
 .header-slogan p span, .header-slogan h1 span { display: block; letter-spacing: 0.28em; }
 
@@ -239,7 +239,7 @@ body.exposez  .header-reserve .outer { -webkit-transform: skewX(-20deg); -ms-tra
 .header-reserve a:hover:after { bottom: 0; }
 
 .header-reserve a:hover:after { -webkit-transition-delay: .175s; transition-delay: .175s; }
-.header-reserve a:hover .ico-reserve { background-image: url(images/icons/ico-badge2-white.svg); -webkit-background-size: 36px 29px; background-size: 36px 29px; }
+.header-reserve a:hover .ico-reserve { background-image: url(images/icons/ico-reserve-white.svg); -webkit-background-size: 36px 39px; background-size: 36px 39px; }
 body.exposez .header-reserve a:hover .ico-reserve { background-image: url(images/icons/ico-reserve-white.svg); -webkit-background-size: 36px 39px; background-size: 36px 39px; }
 
 
@@ -1105,7 +1105,6 @@ body.article #zone3.top .block-socials-small { opacity: 1; }
 
 .article-wrapper .article-content .cl-content:after { content: ''; display: table; clear: both; }
 .article-wrapper .article-content .cl-item { width: 380px; height: 180px; margin: 0 0 40px 40px; padding: 0; float: left; box-shadow: 0 0 16px rgba(0,0,0, .3); background-color: #e71f61; color: #fff; border: none; }
-
 /*.article-wrapper .article-content .cl-item:nth-child(even) { margin-left: 40px; }*/
 
 .article-wrapper .article-content .cl-item-illust { padding: 0; overflow: hidden; }
@@ -1124,9 +1123,13 @@ body.article #zone3.top .block-socials-small { opacity: 1; }
 .article-wrapper .article-content .cl-item-email { margin: 0; color: #fff; }
 .article-wrapper .article-content .cl-item-email .label { display: none; }
 .article-wrapper .article-content .cl-item-email a { display: block; position: relative; color: transparent; }
-.article-wrapper .article-content .cl-item-email a:before { content: 'email'; font-size: 13px; color: #fff; position: absolute; left: 0; top: 0; letter-spacing: .075em; text-decoration: underline; }
+.article-wrapper .article-content .cl-item-email a:before { content: 'email'; font-size: 13px; color: #fff; position: relative; left: 0; top: 0; letter-spacing: .075em; text-decoration: underline; }
 
 .article-wrapper .article-content .cl-item-country {color: #fff; font-size: 12px; }
+
+.article-wrapper .article-content .cl-item-web span {display: none; }
+.article-wrapper .article-content .cl-item-web a {display: inline-block; background: #ffffff; padding: 0 10px; text-decoration: none; margin-top: 7px; font-size: 13px; font-weight: bold; }
+
 
 .article-wrapper .article-content a { text-decoration: underline; }
 .article-wrapper .article-content a:hover { text-decoration: none; color: #e71f61 }
@@ -2703,13 +2706,7 @@ header.header-fixed .header-reserve { right: 90px; position: fixed; }
 @media (max-width: 1520px) {
 	header.header-fixed .header-reserve { display: none; }
 }
-.article-wrapper .article-content .cl-item-email a:before { cposition: relative;  }
 
 
 .ac-switcher:checked ~ .ac-list .ac-item a { font-size: 12px; }
-.mod-catal.catal-nav-affix {
-    display: none;
-}
-
-.article-wrapper .article-content .cl-item-web span {display: none; }
-.article-wrapper .article-content .cl-item-web a {display: inline-block; background: #ffffff; padding: 0 10px; text-decoration: none; margin-top: 7px; font-size: 13px; font-weight: bold; }
+.mod-catal.catal-nav-affix { display: none; }
